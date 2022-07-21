@@ -9,7 +9,7 @@ function App() {
     <section className='container'>
       <h3>{people.length} birthday today</h3>
       <List  people={people} />
-      <button onClick={() => console.log('you ckicked me')}>clear all</button>
+      <button onClick={() =>setPeople([]) }>clear all</button>
     </section>
   </main>;
 }
